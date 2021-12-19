@@ -1,0 +1,138 @@
+.grid
+{
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns:100px 400px 600px 100px;
+    grid-template-rows: 150px 40px 2000px;
+	grid-gap: 20px;
+	justify-content: center;
+	align-content: center;
+} 
+.headder
+{
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	justify-content: left;
+	align-content: center;
+}
+ul
+{
+	list-style-type: none;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;
+}
+
+li
+{
+	float: left;
+	border-right: 1px solid #ffffff;
+}
+
+li a 
+{
+	display: block;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 77.67px;
+	text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a:hover:not(.active)
+{
+	background-color: rgba(190, 190, 190, 0.5);
+	color: white;
+}
+
+.active
+{
+	background-color: rgba(255, 255, 255, 0.7);
+	color: black;
+}
+
+.item-a 
+{
+    display: grid;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	padding: 50px;
+	align-content: flex-start;
+	grid-gap: 20px;
+	justify-content: center;
+	color: #ffffff;
+}
+.item-b 
+{
+    display: grid;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	padding: 30px;
+	align-content: center;
+	color: #ffffff;
+}
+.item-c 
+{
+    display: grid;
+	font-size: 20px;
+	padding: 20px;
+	line-height: 10px;
+	width:800px;
+	max-height: 150px;
+	color: #000000;
+}
+.item-d
+{
+    display: grid;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	padding: 50px;
+	align-content: flex-start;
+	grid-gap: 20px;
+	justify-content: center;
+	color: #ffffff;
+}
+.item-e
+{
+    display: grid;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	font-size: 20px;
+	padding: 20px;
+	line-height: 10px;
+	width:500px;
+	max-height: 150px;
+	align-content: center;
+	color: #000000;
+}
+.img1
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+.img2
+{
+	width:290px;
+	height:180px;
+	padding: 5px;
+	border-radius:15px;
+	border-color: #F6F3ED;
+	border-style: double;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
