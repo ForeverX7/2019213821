@@ -1,0 +1,35 @@
+.font1{
+	font-size: 80px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	font-family:"华文行楷";
+	color: #ff0000;
+}
+
+.font2{
+	font-size: 60px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	font-family:"华文行楷";
+	color: #aa00ff;
+}
+
+.font3{
+	font-size: 80px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	font-family:"华文行楷";
+	color: #0000ff;
+}
+
+.font4{
+	font-size: 60px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	font-family:"华文行楷";
+	color: #ffff00;
+}
